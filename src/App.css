@@ -252,6 +252,7 @@ h6 {
 }
 .services h6 {
   letter-spacing: var(--mainSpacing);
+  text-transform: capitalizeaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa;
 }
 .services p {
   width: 80%;
@@ -270,7 +271,7 @@ h6 {
   }
 }
 /*end of services */
-/* featured rooms */
+/* featured rooms *//*
 
 .featured-rooms {
   padding: 5rem 0;
@@ -296,7 +297,7 @@ h6 {
   }
 }
 /* end pf featured rooms */
-/* room */
+/* room *//*
 .room {
   box-shadow: var(--lightShadow);
   transition: var(--mainTransition);
@@ -359,7 +360,7 @@ h6 {
   letter-spacing: var(--mainSpacing);
 }
 /* end of room  */
-/* single room*/
+/* single room*//*
 
 .single-room {
   padding: 5rem 0 0 0;
@@ -434,7 +435,7 @@ h6 {
   }
 }
 /* end of single room*/
-/* roomlist */
+/* roomlist *//*
 .roomslist {
   padding: 5rem 0;
 }
@@ -459,7 +460,7 @@ h6 {
   }
 }
 /* end of roomlist */
-/*  rooms fitler*/
+/*  rooms fitler*//*
 .filter-container {
   padding: 5rem 0;
 }

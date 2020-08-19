@@ -1,10 +1,24 @@
 import React from 'react'
+import Hero from '../Components/Hero'
+import Banner from '../Components/Banner'
+import {Link} from 'react-router-dom'
+import Services from '../Components/Services'
 
 function Home() {
     return (
-        <div>
-            Hello from home page
-        </div>
+        <>
+        <Hero>
+            <Banner 
+                title="luxuriuos rooms"
+                subtitle="deluxe rooms starting at $299"
+            >
+                <Link to="/rooms" className="btn-primary">
+                    our rooms    
+                </Link> 
+            </Banner>
+        </Hero>
+        <Services />
+        </>
     )
 }
 
